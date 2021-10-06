@@ -1,0 +1,39 @@
+{
+  "name": "@andsfonseca/typed-arrays-manipulations",
+  "version": "1.0.0",
+  "description": "A simple library for manipulating 'TypedArrays' in Javascript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andsfonseca/typed-arrays-manipulations.git"
+  },
+  "keywords": [
+    "typed-arrays",
+    "arrays",
+    "manipulation",
+    "operations",
+    "array",
+    "javascript"
+  ],
+  "author": {
+    "name": "Anderson Silva",
+    "email": "andsfonseca@tecgraf.puc-rio.br",
+    "url": "http://andsfonseca.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andsfonseca/typed-arrays-manipulations/issues"
+  },
+  "homepage": "https://github.com/andsfonseca/typed-arrays-manipulations#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
