@@ -1,5 +1,15 @@
+/**
+ * Module for array manipulations 
+ */
 export module ArrayManipulations {
 
+    /**
+     * Flip the array from left to right 
+     * @param array a typed array for manipulation 
+     * @param width width of array
+     * @param height height of array
+     * @param depth depht of array
+     */
     export function fliplr2D(array : Int8Array | Uint8Array | Uint8ClampedArray | Int16Array | Uint16Array | Int32Array | Uint32Array | Float32Array | Float64Array, width: number, height: number, depth: number = 1) {
         
         for (let i = 0; i < height; i++) {
